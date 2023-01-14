@@ -1,0 +1,57 @@
+
+body{
+    background-color: rgb(220, 226, 226);
+}
+
+@media only screen and (max-width:600px){
+    body{
+        background-color: rgb(79, 214, 79)
+    }
+        
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+
+
+
+
+
+h1 {border: 5px solid black;
+    padding: 5px solid blue;
+    margin: 20px solid green;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+color: blue;
+
+}
+
+#foto {
+    background-color: #80eeae;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST0Ey0P2yQ0WmmW7VVj8sN76m5eQaL_cMB2hZWYvD6S4eQkS0d4sl0OTQcu-Ll2h2fPI4&usqp=CAU");
+    background-repeat: repeat;
+    background-attachment: scroll;
+      
+        -webkit-box-shadow: 9px 10px 10px 5px rgba(0,0,0,0.86); 
+    box-shadow: 19px 22px 22px 5px rgba(0,0,0,0.86);
+}
+
+p {
+    
+    color:rgb(25, 0, 255);
+
+}
+
+section {
+
+    width: 300px;
+    border: 15px solid gray;
+    padding: 50px;
+    margin: 20px;
+
+}
