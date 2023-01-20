@@ -1,57 +1,55 @@
 
 body{
-    background-color: rgb(220, 226, 226);
+    background-color: rgb(198, 255, 222);
 }
 
-@media only screen and (max-width:600px){
-    body{
-        background-color: rgb(79, 214, 79)
-    }
+.btn-a{
+    background-color: rgb(160, 223, 202);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: darkcyan;
+}
+.btn-a:hover{
+    background-color: rgb(118, 194, 168);    
+}
+
+#caja {
+    margin-top: 20px;
+    padding: 50px;
+    background-color: rgb(220, 255, 243);
         
+}
+
+.navbar {
+
+margin-left: 300px;
+margin-right: 300Px;
+}
+
+h2 {
+    
+    border: 5px solid rgb(178, 255, 210);
+    background-color: rgb(144, 255, 190);
+    margin-left: 100px;
+    margin-right: 100px;  
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(58, 68, 66);
+    text-align: center;
+}
+h1 {
+    margin-top: 25px;
+    color: rgb(78, 83, 82);
+    text-align: center;
     
 }
 
-* {
-    box-sizing: border-box;
-  }
-
-
-
-
-
-
-h1 {border: 5px solid black;
-    padding: 5px solid blue;
-    margin: 20px solid green;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-
-color: blue;
-
-}
-
-#foto {
-    background-color: #80eeae;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST0Ey0P2yQ0WmmW7VVj8sN76m5eQaL_cMB2hZWYvD6S4eQkS0d4sl0OTQcu-Ll2h2fPI4&usqp=CAU");
-    background-repeat: repeat;
-    background-attachment: scroll;
-      
-        -webkit-box-shadow: 9px 10px 10px 5px rgba(0,0,0,0.86); 
-    box-shadow: 19px 22px 22px 5px rgba(0,0,0,0.86);
+*{
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 p {
     
-    color:rgb(25, 0, 255);
-
-}
-
-section {
-
-    width: 300px;
-    border: 15px solid gray;
-    padding: 50px;
-    margin: 20px;
+    color:rgb(3, 31, 1);
 
 }
