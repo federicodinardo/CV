@@ -3,7 +3,7 @@
 // Funciones de seleccion de datos a mostrar
 
 document.getElementById('datospersonales').onclick = function (){
-document.getElementById('inicio').innerHTML= "Tengo 39 años padre de Evaristo y compañero de vida de Sabrina";
+document.getElementById('inicio').innerHTML= "Tengo 39 años padre de Vitto y compañero de vida de Sabrina";
 
 }
 
